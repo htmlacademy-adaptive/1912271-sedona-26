@@ -1,12 +1,51 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Седона</title>
+</head>
+<body class="page__body">
+  <header class="main-header">
+    <a class="main-header__logo">
+      <img class="main-header__logo-image" src="img/header_logo.svg" width="185" height="96" alt="Седона.">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a href="#">
+              Главная
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">
+              Фото и видео
+            </a>
+          </li>
+        </ul>
+        <div class="main-nav__list user-list">
+          <a href="#">
+          Форма отзыва
+          </a>
+        </div>
+        <div class="main-nav__list promo-list">
+          <a href="#">
+            HTML academy
+          </a>
+        </div>
+    </nav>
+  </header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS. Адаптивная вёрстка и автоматизация</a>».</p>
+  <main class="main-container">
+    <h1 class="visually-hidden">Отдых в Седоне</h1>
+    <section class="welcome">
+      <div class="welcome-wrapper">
+        <img class="welcome-text" src="img/welcome-text.svg" width="282" height="214" alt="Добро пожаловать в Седону">
+        <span class="welcome-divider"> </span>
+      </div>
+    </section>
+  </main>
 
-  </body>
+</body>
 </html>
