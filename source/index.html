@@ -50,14 +50,21 @@
           alt="Добро пожаловать в Седону">
       </div>
     </section>
+    <section class="notice">
+    <p class="notice__title title"> СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</p>
+    <p class="notice__content content">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+  </section>
     <section class="advantages">
       <h2 class="visually-hidden">Особенности и преимущества</h2>
       <div class="advantages__wrapper">
-        <p class="advantages__title title"> СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</p>
-        <p class="advantages__content content">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
-        <p class="advantages__title-- title">НАСТОЯЩИЙ ГОРОДОК</p>
-        <p class="advantages__content content"> — №1 — <br>СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
-        <p class="advantages__image"></p>
+        <ul class="advantages__content--image">
+        <li class="advantages__title--image title">НАСТОЯЩИЙ ГОРОДОК</li>
+        <li class="advantages__content--image content"> — №1 — <br>СЕДОНА НЕ АТТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</li>
+        <li class="advantages-image">
+          <img src="img/advantages-picture-town.jpg" width="320" height="260" alt="Городской пейзаж.">
+        </li>
+      </ul>
+      <ul class="advantages__content--icon">
         <p class="advantages__title--icon advantages__title title">Жильё</p>
         <p class="advantages__content--icon advantages__content content">Рекомендуем пожить в настоящем мотеле, все как
           в кино!</p>
@@ -69,7 +76,10 @@
           производства!</p>
         <p class="advantages__title title">ТАМ ЕСТЬ Мост дьявола</p>
         <p class="advantages__content content">— №2 — <br> Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
-        <p class="advantages__image"></p>
+        </ul>
+        <p class="advantages__image">
+          <img src="img/advantages-picture-mountaine.jpg" width="320" height="260" alt="Вид на горы.">
+        </p>
         <p class="advantages__title title">НЕБОЛЬШАЯ ПЛОЩАДЬ</p>
         <p class="advantages__content content">— №3 — <br>ВСЕ интересные места находятся очень близко</p>
         <p class="advantages__title title">КРАСИВАЯ ДОРОГА</p>
@@ -86,6 +96,9 @@
       </p>
       <a class="search-button button" href="#">Найти гостиницу</a>
     </section>
+    <section class="map">
+      <img class="map" src="img/map-mobile.jpg" width="320" height="350">
+    </section>
   </main>
 
   <footer class="main-footer">
@@ -93,7 +106,7 @@
       Контакты.
     </h2>
     <div class="main-footer__wrapper">
-      <div class="main-footer__hashtag">
+        <div class="main-footer__hashtag">
         <h3 class="visually-hidden"> Хэштеги
         </h3>
         #visitSEDONA
